@@ -12,6 +12,7 @@ class ApplicationController < ActionController::API
 
   # Returns 401 response. To handle malformed / invalid requests.
   def invalid_authentication
+    binding.pry
     render json: {error: 'Invalid Request'}, status: :unauthorized
   end
 
@@ -28,5 +29,5 @@ class ApplicationController < ActionController::API
   # Sets the @current_user with the user_id from payload
   def load_current_user!
     @current_user = User.find_by(id: payload[0]['user_id'])
-  end  
+  end
 end

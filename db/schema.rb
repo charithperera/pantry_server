@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 20170115011515) do
     t.decimal  "calories",     default: "0.0"
     t.decimal  "fat",          default: "0.0"
     t.decimal  "carbs",        default: "0.0"
+    t.decimal  "protein",      default: "0.0"
     t.datetime "created_at",                   null: false
     t.datetime "updated_at",                   null: false
   end

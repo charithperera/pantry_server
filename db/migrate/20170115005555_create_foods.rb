@@ -8,6 +8,7 @@ class CreateFoods < ActiveRecord::Migration[5.0]
       t.decimal :calories,      default:0.0
       t.decimal :fat,           default:0.0
       t.decimal :carbs,         default:0.0
+      t.decimal :protein,        default:0.0
 
       t.timestamps
     end
