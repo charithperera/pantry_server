@@ -1,5 +1,7 @@
 class User < ApplicationRecord
   has_secure_password
+  has_many :entries
+  has_many :daily_stats
 
   before_save :downcase_email
   before_create :generate_confirmation_instructions

@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  entry_date: 2017-01-15
+  servings: 9.99
+  serving_size: MyString
+  serving_type: MyString
+  calories: 9.99
+  fat: 9.99
+  carbs: 9.99
+  protein: 9.99
+  user: one
+  food: one
+
+two:
+  entry_date: 2017-01-15
+  servings: 9.99
+  serving_size: MyString
+  serving_type: MyString
+  calories: 9.99
+  fat: 9.99
+  carbs: 9.99
+  protein: 9.99
+  user: two
+  food: two
